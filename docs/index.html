@@ -2,1507 +2,775 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LBBJ00MH5B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+  <title>Connexa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        gtag('config', 'G-LBBJ00MH5B');
-    </script>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <title>Remote Proctoring Device</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
-    <!-- Favicons -->
-    <link href="assets/img/universityLogo.png" rel="icon">
-    <link href="assets/img/universityLogo.png" rel="apple-touch-icon">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
+  <!-- =======================================================
+  * Template Name: Nova - v1.2.1
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
+<body class="page-index">
 
-    <!-- ======= Top Bar ======= -->
-    <!--<div id="topbar" class="d-flex align-items-center fixed-top">
-        <div class="container d-flex justify-content-center justify-content-md-between">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-                <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-                <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">Connexa</h1>
+        <img src="assets/img/appicon.png" style="padding-left:10px"/>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li class="dropdown"><a href="#"><span>Phases</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="phase1.html">Design Achitecture</a></li>
+              <li><a href="phase2.html">Frontend Implementation</a></li>
+              <li><a href="phase3.html">Backend Implementation</a></li>
+              <li><a href="phase4.html">Hardware implementation</a></li>
+              <li><a href="phase5.html">Testing and integration</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <h2 data-aos="fade-up">Remote Proctoring Device</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>A single device which integrates the hardware and software components needed to conduct an examination in the currently implemented system, which will provide a seamless process for the proctors and students involved in an examination. </p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system" class="btn-get-started" target="_blank">Repository</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>The Technology We Use</h2>
+
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+            <div class="system">
+              <a href="assets/img/system/oursystem.PNG" title="System" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/oursystem.PNG" class="img-fluid" alt=""></a>
+              <p>
+                <h4>System</h4>
+                <p>The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power failure.</p>
+                <p>The proctor will be able to monitor the video and audio streams captured from all the students facing an examination through the browser application in the proctor's side.</p>
+              </p>
             </div>
+            </div><!-- End Portfolio Item -->
 
-            <div class="languages d-none d-md-flex align-items-center">
+                       
+            <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+              <div class="system">
+              <a href="assets/img/system/system.PNG" title="High-level system overview" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/system.PNG" class="img-fluid" alt=""></a>
+              <p>
+                <h4>High-level system overview</h4>
+                <p>Method used to ensure secure video/audio streaming:</p>
+                <p>HTTPS protects the user from “Man-in-the-Middle” attacks where hackers can use vulnerabilities in public networks to steal data transmitted to the viewer. Using HLS encryption to mask a user's connection with the website can prevent this sort of attack.</p>
+              </p>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+              <div class="system">
+              <a href="assets/img/system/technology.PNG" title="Technology stack" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/technology.PNG" class="img-fluid" alt=""></a>
+              <p>
+                <h4>Technology stack</h4>
+                <p>The system consists of three main endpoints:</p>
                 <ul>
-                    <li>En</li>
-                    <li><a href="#">De</a></li>
+                  <li>Web browser in Proctor's end</li>
+                  <li>Desktop application in Student's end</li>  
+                  <li>Database and server application hosted on the Cloud</li>
                 </ul>
+              </p>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <section id="phasess" class="phasess call-to-action">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2 style="color: white">Timeline</h2>
+        </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-3">
+                  <ul class="nav nav-tabs flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Phase 1</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Phase 2</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Phase 3</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Phase 4</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Phase 5</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-9 mt-4 mt-lg-0" style="color: white">
+                  <div class="tab-content">
+                      <div class="tab-pane active show" id="tab-1">
+                          <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1">
+
+                                  <h3>Phase 1</h3>
+                                  <p>2 Weeks :<br> Determine the design architecture and connections of overall infrastructure.</p>
+                                  <ul>
+                                      <li><i class="bi bi-check-circle-fill"></i> System overview</li>
+                                      <li><i class="bi bi-check-circle-fill"></i> High-Level System Overview</li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Technology Stack</li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Aproximate Budget</li>
+                                  </ul>
+                                  <br>
+                                  <a href="phase1.html">See more >></a>
+                              </div>
+                              <a href="phase1.html" class="col-lg-4 text-center order-1 order-lg-2">
+                                  <img src="assets/img/timeline/mind-map.png" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="tab-2">
+                          <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1">
+                                  <h3>Phase 2 </h3>
+                                  <p> 7 Weeks :<br> Develop the frontend (Both web and desktop apps)</p>
+                                  <ul>
+                                      <li><i class="bi bi-check-circle-fill"></i> Students' User Interface</li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Proctors' User Interface</li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Admins' User Interface</li>
+                                  </ul>
+                                  <br>
+                                  <a href="phase2.html">See more >></a>
+                              </div>
+                              <a href="phase2.html" class="col-lg-4 text-center order-1 order-lg-2">
+                                  <img src="assets/img/timeline/frontends.png" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="tab-3">
+                          <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1">
+                                  <h3>Phase 3 </h3>
+                                  <p>8 Weeks : <br> Develop the backend and server side programs</p>
+                                  <ul>
+                                      <li><i class="bi bi-check-circle"></i> ER-diagram</li>
+
+
+                                  </ul>
+                                  <br>
+                                  <a href="phase3.html">See more >></a>
+                              </div>
+                              <a href="phase3.html" class="col-lg-4 text-center order-1 order-lg-2">
+                                  <img src="assets/img/timeline/backend.png" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="tab-4">
+                          <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1">
+                                  <h3>Phase 4 </h3>
+                                  <p>5 Weeks :<br> Hardware implementation</p>
+                                  <ul>
+                                      <li><i class="bi bi-check-circle-fill"></i> Proctoring device circuit </li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Power supply unit circuit</li>
+                                  </ul>
+                                  <br>
+                                  <a href="phase4.html">See more >></a>
+                              </div>
+                              <a href="phase4.html" class="col-lg-4 text-center order-1 order-lg-2">
+                                  <img src="assets/img/timeline/hardware.png" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="tab-5">
+                          <div class="row">
+                              <div class="col-lg-8 details order-2 order-lg-1">
+                                  <h3>Phase 5 </h3>
+                                  <p>6 Weeks :<br> Testing and Integration</p>
+                                  <ul>
+                                      <li><i class="bi bi-check-circle-fill"></i> Software testing plan </li>
+                                      <li><i class="bi bi-check-circle-fill"></i> Hardware testing plan</li>
+                                  </ul>
+                                  <br>
+                                  <a href="phase5.html">See more >></a>
+                              </div>
+                              <a href="phase5.html" class="col-lg-4 text-center order-1 order-lg-2">
+                                  <img src="assets/img/timeline/testing.png" alt="" class="img-fluid">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h2>End point</h2>
+
+      </div>
+
+      <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+          <div class="system">
+            <video width="100%" controls>
+              <source src="assets/img/UI videos/admin.mp4" type="video/mp4">
+             
+              Your browser does not support HTML video.
+          </video>
+          <h3>Admin Portal</h3>
+          <!-- <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+          </p> -->
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i>Add proctors and students details</li>
+            <li><i class="bi bi-check-circle-fill"></i>Add courses to the system</li>
+            <li><i class="bi bi-check-circle-fill"></i>Edd exam scedules</li>
+            <li><i class="bi bi-check-circle-fill"></i>Cancle exam scedules</li>
+          </ul>
+          </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+          <div class="system">
+            <video width="100%" controls>
+              <source src="assets/img/UI videos/proctor.mp4" type="video/mp4">
+             
+              Your browser does not support HTML video.
+          </video>
+          <h3>Proctors' Web App</h3>
+              <!-- <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              </p> -->
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i>See course details</li>
+                <li><i class="bi bi-check-circle-fill"></i>See Exam scedules</li>
+                <li><i class="bi bi-check-circle-fill"></i>Invigilate an examination</li>
+                <li><i class="bi bi-check-circle-fill"></i>See disconnection of students</li>
+                <li><i class="bi bi-check-circle-fill"></i>Get the link of the students saved video</li>
+              </ul>
+          </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+          <div class="system">
+            <video width="100%" controls>
+              <source src="assets/img/UI videos/student.mp4" type="video/mp4">
+             
+              Your browser does not support HTML video.
+          </video>
+          <h3>Students' Desktop App</h3>
+              <!-- <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              </p> -->
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i>See course details</li>
+                <li><i class="bi bi-check-circle-fill"></i>See exam schedule</li>
+                <li><i class="bi bi-check-circle-fill"></i>Join examination</li>
+                <li><i class="bi bi-check-circle-fill"></i>Upload locally saved video</li>
+              </ul>
+          </div>
+          </div>
+
+                     
+          
+          
+
+        </div><!-- End Portfolio Container -->
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+    <!-- ======= Our Services Section ======= -->
+    <!-- <section id="services-list" class="services-list">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Features</h2>
+
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-telephone-inbound" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title">One-on-one interaction</h4>
+              <p class="description">One-on-one interaction with students</p>
             </div>
+          </div>
+
         </div>
-    </div>-->
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-cente">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+      </div>
+    </section> -->
 
-            <h1 class="logo me-auto me-lg-0">
-                <a href="index.html"></a>
-            </h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-            <nav id="navbar" class="navbar order-last order-lg-0">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#tech">Solutions</a></li>
-                    <li><a class="nav-link scrollto " href="#events">Progress</a></li>
-
-                    <li class="dropdown"><a class="nav-link scrollto" href="#phasess"><span>Timeline</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="phase1.html">Designing overall system</a></li>
-
-                            <li class="dropdown"><a href="phase2.html">Frontends Implementations</a>
-                                <ul>
-                                    <li><a href="phase2.html#student">Students' UI</a></li>
-                                    <li><a href="phase2.html#proctor">Proctors' UI</a></li>
-                                    <li><a href="phase2.html#admin">Administrators' UI</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="phase3.html">Backend Implementation</a></li>
-                            <li><a href="phase4.html">Hardware Implementation</a></li>
-                            <li><a href="phase5.html">Testing and Integration</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="#menu">Features</a></li>
-                    <li><a class="nav-link scrollto" href="#budget">Budget</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-
-                </ul>
-
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <!-- .navbar 
-            <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
-            -->
+    <!-- ======= Call To Action Section ======= -->
+    <!-- <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h3>Ut fugiat aliquam aut non</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <a class="cta-btn" href="#">Call To Action</a>
+          </div>
         </div>
-    </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      </div>
+    </section>End Call To Action Section -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
 
-            <div class="col-lg-8" style="align-items: center; text-align: center">
-                <img class="image" src="assets/img/appicon.png">
-                <h1>Connexa</h1>
-                <h2>REMOTE <span>PROCTORING DEVICE</span></h2>
-                <!-- <h2>FOR HASSLE-FREE ONLINE EXAMINATIONS</h2> -->
+        <div class="section-header">
+          <h2>Features</h2>
 
-                <div class="btns">
-                    <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system" class="btn-menu animated fadeInUp scrollto">Project Repository</a>
+        </div>
+
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+          <div class="col-xl-7 slides  position-relative">
+
+            <div class="slides-1 swiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Students Desktop app</h3>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                      <div class="icon flex-shrink-0"><i class="bi bi-person-video3" style="color: #f57813;"></i></div>
+                      <div>
+                        <h4 class="title">video/audio feed</h4>
+                        <p class="description">Get video/audio feed from multiple students</p>
+                      </div>
+                    </div>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                      <div class="icon flex-shrink-0"><i class="bi bi-bell" style="color: #f5cf13;"></i></div>
+                      <div>
+                        <h4 class="title">Notify examinations</h4>
+                        <p class="description">Notify students about up coming examinations</p>
+                      </div>
+                    </div>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                      <div class="icon flex-shrink-0"><i class="bi bi-clock" style="color: #1335f5;"></i></div>
+                      <div>
+                        <h4 class="title">Time to next examination</h4>
+                        <p class="description">Display the next examination and time to next examination</p>
+                      </div>
+                    </div>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                      <div class="icon flex-shrink-0"><i class="bi bi-cloud-arrow-up" style="color: #1335f5;"></i></div>
+                      <div>
+                        <h4 class="title">Easy Upload</h4>
+                        <p class="description">upload the record the video during the power failures, with one touch</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <br>
-                <div class=" d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-                    <a href="assets/img/video.mp4" class="glightbox play-btn"></a>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Proctors Web App</h3>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                      <div class="icon flex-shrink-0"><i class="bi bi-wifi-off" style="color: #d90707;"></i></div>
+                      <div>
+                        <h4 class="title">Detect disconnections</h4>
+                        <p class="description">Detect disconneted students immediately</p>
+                      </div>
+                    </div>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                      <div class="icon flex-shrink-0"><i class="bi bi-play-circle" style="color: #f59313;"></i></div>
+                      <div>
+                        <h4 class="title">Capture the video & audio</h4>
+                        <p class="description">Capture the video & audio stream from student's environment</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <br>
-                <p>SEE OUR PRODUCT VIDEO</p>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Device</h3>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                      <div class="icon flex-shrink-0"><i class="bi bi-battery-charging" style="color: #078317;"></i></div>
+                      <div>
+                        <h4 class="title">Backup Power</h4>
+                        <p class="description">Continuous power supply even incase of a power failure</p>
+                      </div>
+                    </div>
+                    <div class="service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                      <div class="icon flex-shrink-0"><i class="bi bi-phone-flip" style="color: #1335f5;"></i></div>
+                      <div>
+                        <h4 class="title">Easily mountable</h4>
+                        <p class="description">can easily mountable on a surface</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
 
         </div>
+
+      </div>
     </section>
-    <!-- End Hero -->
+    
 
-    <main id="main">
+    <section id="features" class="features">
 
-        <div class="container" data-aos="fade-up">
-            <div class="section-title" style='padding:20px 0 20px 0 !important;;'>
-                <h2>Web Application</h2>
-                <h4>Explore the <a href="https://connexa.space/" style="cursor: pointer; text-decoration: underline;color:aliceblue;">Connexa space</a></h4>
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Security</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>We ensure security using 3 main methods</h3>
+            <p>Security is a key concern in our product since we deal with highly sensitive data related to examinations and personal security.
+              We ensure security using 3 main methods: </p>
+              <ul>
+                <li>Isolation</li>
+                <li>Encyrption</li>
+                <li>Authorization and authentication</li>
+              </ul>
+            <div class="row gy-4">
+
+              <!-- <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                  <span>Sit amet consectetur adipisicing</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                  <span>Ipsum Rerum Explicabo</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                  <span>Easy Cart Features</span>
+                </div>
+              </div> -->
             </div>
+          </div>
+          <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="assets/img/Security/features.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
         </div>
 
+      </div>
 
+      <div class="details">
+        <div class="container" data-aos="fade-up" data-aos-delay="300">
+          <div class="row">
+            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="about-img">
-                            <!-- <img src="assets/img/prototype.gif" alt=""> -->
-                            <img src="assets/img/prototype2.gif" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" style="margin: auto;">
-                        <h3>What is the Remote Proctoring Device?</h3>
-                        <p class="fst-italic">
-                            A single device which integrates the hardware and software components needed to conduct an examination in the currently implemented system, which will provide a seamless process for the proctors and students involved in an examination.
-                        </p>
-
-
-                    </div>
+              <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
+    
+    
+                <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                <div class="system">
+                  <a href="assets/img/Security/Data encryption.png" title=">Encryption in Server and Database" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Security/Data encryption.png" class="img-fluid" alt=""></a>
+                  <p>
+                    <h5 style="color: white">Encryption in Server and Database</h5>
+                    <p>The secure MongoDB, Atlas cluster ensures secure data encryption both at transit and rest using TSL and AES-256 standards</p>
+                  </p>
                 </div>
+                </div><!-- End Portfolio Item -->
 
+    
+                <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                  <div class="system">
+                  <a href="assets/img/Security/local.PNG" title="Encrypting locally stored videos" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Security/local.PNG" class="img-fluid" alt=""></a>
+                  <p>
+                    <h5 style="color: white">Encrypting locally stored videos</h5>
+                    <p>To ensure that students or any other third party cannot tamper locally stored recordings, they are encrypted using AES-256.
+                      Node.js's built-in cipher class File-encrypter is used to encrypt the recordings.AWS Key Management Service is used to control and manage the encryption keys.</p>
+                  </p>
+                  </div>
+                </div><!-- End Portfolio Item -->
+                
+                <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                  <div class="system">
+                  <a href="assets/img/Security/jitsi.png" title="Encryption in Jitsi-Meet server" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Security/jitsi.png" class="img-fluid" alt=""></a>
+                  <p>
+                    <h5 style="color: white">Encryption in Jitsi-Meet server</h5>
+                    <p>Jitsi-Meet provides end-to-end and hop-to-hop encryption for multiparty conferences.
+
+                      The meeting rooms are password protected and ephemeral.</p>
+                  </p>
+                  </div>
+                </div><!-- End Portfolio Item -->
+    
+              </div><!-- End Portfolio Container -->
+    
             </div>
-        </section>
-        <section>
-            <div class="container" data-aos="fade-up">
+    
+          </div>
 
-                <div class="section-title">
-                    <h2>why</h2>
-                    <p>Why do we need a seperate device?</p>
-                </div>
+        </div>
+      </div>
 
-                <p>When conducting examinations where the skills of the students should be evaluated in a limited timeframe, it's crucial to manage the external factors affecting the performance of the students at a satisfactory level. However it could be
-                    challenging to manage these factors in an online environment.
-                    <br><br>Currently, multiple hardware devices and software tools are used to conduct online examinations while ensuring the quality of the examinations. We have noticed that this method can cause a lot of distractions and unnecessary
-                    burdens to students as well as proctors.</p>
+    </section>
+    
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <!-- <section id="recent-posts" class="recent-posts">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-header">
+          <h2>Recent Blog Posts</h2>
 
-            </div>
-
-
-        </section>
-
-        <!-- End About Section -->
-
-        <!-- ======= system overview Section ======= -->
-
-        <section id="tech" class="tech">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>System Overview</h2>
-                    <p>What Are The Technology We Use</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4">
-                        <div class="box" data-aos="zoom-in" data-aos-delay="100" style="border-radius: 15px 50px;">
-                            <span>System</span>
-
-                            <div class="gallery-item">
-                                <a href="assets/img/system/oursystem.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/system/oursystem.PNG" alt="" class="img-fluid">
-                                </a>
-                            </div>
-
-                            <p>The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power failure.<br><br> The proctor will be able to monitor the video and audio streams captured
-                                from all the students facing an examination through the browser application in the proctor's side.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0">
-                        <div class="box" data-aos="zoom-in" data-aos-delay="200" style="border-radius: 15px 50px;">
-                            <span>High-Level System Overview</span>
-                            <div class="gallery-item">
-                                <a href="assets/img/system/system.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/system/system.PNG" alt="" class="img-fluid">
-                                </a>
-                            </div>
-
-                            <!--<p>The system consists of three main endpoints.</p>
-                            <ul>
-                                <li>Web browser in Proctor's end</li>
-                                <li>Desktop application in Student's end</li>
-                                <li>Database and server application hosted on the Cloud</li>
-                            </ul>-->
-                            <p>Method used to ensure secure video/audio streaming:<br><br>HTTPS protects the user from “Man-in-the-Middle” attacks where hackers can use vulnerabilities in public networks to steal data transmitted to the viewer. Using HLS
-                                encryption to mask a user's connection with the website can prevent this sort of attack.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4 mt-lg-0">
-                        <div class="box" data-aos="zoom-in" data-aos-delay="300" style="border-radius: 15px 50px;">
-                            <span>Technology Stack</span>
-
-                            <div class="gallery-item">
-                                <a href="assets/img/system/technology.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/system/technology.PNG" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                            <p>The system consists of three main endpoints...<br><br></p>
-                            <ul>
-                                <li>Web browser in Proctor's end</li>
-                                <li>Desktop application in Student's end</li>
-                                <li>Database and server application hosted on the Cloud</li>
-                            </ul>
-
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- ======= Timeline Section ======= -->
-        <section id="phasess" class="phasess">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Timeline</h2>
-                    <p>The completion of the product will undergo 5 phases</p>
-                </div>
-
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-3">
-                        <ul class="nav nav-tabs flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Phase 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Phase 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Phase 3</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Phase 4</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Phase 5</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-9 mt-4 mt-lg-0">
-                        <div class="tab-content">
-                            <div class="tab-pane active show" id="tab-1">
-                                <div class="row">
-                                    <div class="col-lg-8 details order-2 order-lg-1">
-
-                                        <h3>Phase 1</h3>
-                                        <p>2 Weeks :<br> Determine the design architecture and connections of overall infrastructure.</p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle"></i> System overview</li>
-                                            <li><i class="bi bi-check-circle"></i> High-Level System Overview</li>
-                                            <li><i class="bi bi-check-circle"></i> Technology Stack</li>
-                                            <li><i class="bi bi-check-circle"></i> Aproximate Budget</li>
-                                        </ul>
-                                        <br>
-                                        <a href="phase1.html" style="color: aliceblue;">See more >></a>
-                                    </div>
-                                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/timeline/mind-map.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab-2">
-                                <div class="row">
-                                    <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Phase 2 </h3>
-                                        <p> 7 Weeks :<br> Develop the frontend (Both web and desktop apps)</p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle"></i> Students' User Interface</li>
-                                            <li><i class="bi bi-check-circle"></i> Proctors' User Interface</li>
-                                            <li><i class="bi bi-check-circle"></i> Admins' User Interface</li>
-                                        </ul>
-                                        <br>
-                                        <a href="phase2.html" style="color: aliceblue;">See more >></a>
-                                    </div>
-                                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/timeline/frontends.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab-3">
-                                <div class="row">
-                                    <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Phase 3 </h3>
-                                        <p>8 Weeks : <br> Develop the backend and server side programs</p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle"></i> ER-diagram</li>
-
-
-                                        </ul>
-                                        <br>
-                                        <a href="phase3.html" style="color: aliceblue;">See more >></a>
-                                    </div>
-                                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/timeline/backend.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab-4">
-                                <div class="row">
-                                    <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Phase 4 </h3>
-                                        <p>5 Weeks :<br> Hardware implementation</p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle"></i> Proctoring device circuit </li>
-                                            <li><i class="bi bi-check-circle"></i> Power supply unit circuit</li>
-                                        </ul>
-                                        <br>
-                                        <a href="phase4.html" style="color: aliceblue;">See more >></a>
-                                    </div>
-                                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/timeline/hardware.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tab-5">
-                                <div class="row">
-                                    <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Phase 5 </h3>
-                                        <p>6 Weeks :<br> Testing and Integration</p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle"></i> Software testing plan </li>
-                                            <li><i class="bi bi-check-circle"></i> Hardware testing plan</li>
-                                        </ul>
-                                        <br>
-                                        <a href="phase5.html" style="color: aliceblue;">See more >></a>
-                                    </div>
-                                    <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/timeline/testing.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Timeline Section -->
-        <!-- PROGRESS -->
-        <!-- ======= UI Section =======-->
-        <section id="events" class="events">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Progress</h2>
-                    <p>Our Progress So Far</p>
-                </div>
-
-                <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <img src="assets/img/Testing/studentsappUnitTesting.gif" class="img-fluid" alt="" style="border-radius: 32px;">
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Student App Unit Testing</h3>
-                                    <div class="price">
-                                        <p><span><a href="phase5.html#student" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Electron application unit testing</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Spectron and Mocha</li>
-
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <img src="assets/img/Testing/proctorWebappUnitTesting.gif" class="img-fluid" alt="" style="border-radius: 32px;">
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Proctors' Web App Unit Testing</h3>
-                                    <div class="price">
-                                        <p><span><a href="phase5.html" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> React application unit testing</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> React testing libraries and Jest</li>
-
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <img src="assets/img/Testing/adminAPI.gif" class="img-fluid" alt="" style="border-radius: 32px;">
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>API testing</h3>
-                                    <div class="price">
-                                        <p><span><a href="phase3.html" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> API request testing</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Authentication testing</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Access control testing</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Jest and Postman</li>
-
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <video width="100%" controls>
-                                        <source src="assets/img/UI videos/student.mp4" type="video/mp4">
-                                       
-                                        Your browser does not support HTML video.
-                                    </video>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Students' Desktop App </h3>
-                                    <div class="price">
-                                        <p><span><a href="phase5.html#student" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> See course details</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> See exam schedule</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Join examination</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Upload locally saved videos</li>
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <video width="100%" controls>
-                                        <source src="assets/img/UI videos/admin.mp4" type="video/mp4">
-                                       
-                                        Your browser does not support HTML video.
-                                    </video>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Admin Portal </h3>
-                                    <div class="price">
-                                        <p><span><a href="phase5.html#admin" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Add proctors to the system</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Add students to the system</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Add courses to the system</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Add exam schedule using master sheets</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Remove exam schedules</li>
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <video width="100%" controls>
-                                        <source src="assets/img/UI videos/proctor.mp4" type="video/mp4">
-                                       
-                                        Your browser does not support HTML video.
-                                    </video>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Proctors' Web App </h3>
-                                    <div class="price">
-                                        <p><span><a href="phase5.html#proctor" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> See course details</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> See exam schedule</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Invigilate an examination</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> See disconnections of students</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Get the link of the students saved videos</li>
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <img src="assets/img/backend/api calls.PNG" class="img-fluid" alt="" style="border-radius: 32px;">
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>API call documentation</h3>
-                                    <div class="price">
-                                        <p><span><a href="phase3.html" style="color: aliceblue;"> See more details >></a></span></p>
-                                    </div>
-                                    <p>
-                                        <ul>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Authentication</li>
-                                            <li><i class="bi bi-check-circle" style="color: white;"></i> Access control</li>
-                                        </ul>
-                                    </p>
-                                    <!-- <p class="fst-italic">
-                                        <a href="https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system/tree/main/Student_desktopapp" style="color: aliceblue;">View source files of the implementation</a>
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-            </div>
-        </section>
-
-        <!--============= demo video ===============-->
-        <section id="events" class="events">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Demonstration</h2>
-                    <p>User Interface Implementation</p>
-                </div>
-                <video width="80%" controls>
-                    <source src="assets/img/UI videos/demo.mp4" type="video/mp4">
-                   
-                    Your browser does not support HTML video.
-                </video>
-            </div>
-        </section>
-
-
-        <!--Security section-->
-        <section id="security " class="about " style="background: url(./assets/img/hero_test.jpg) center center; ">
-            <div class="container " data-aos="fade-up ">
-                <div class="section-title ">
-                    <h2>Security</h2>
-                </div>
-                <div class="row ">
-                    <div class="col-lg-5 order-1 order-lg-2 " data-aos="zoom-in " data-aos-delay="100 ">
-                        <div class="gallery-item ">
-                            <img src="assets/img/Security/features.png " alt=" " class="img-fluid ">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1 content " style="margin: auto; ">
-                        <p>Security is a key concern in our product since we deal with highly sensitive data related to examinations and personal security.</p>
-                        <p class="fst-italic "> We ensure security using 3 main methods.</p>
-                        <ul style="list-style-type: circle; ">
-                            <li>Isolation</li>
-                            <li>Encyrption</li>
-                            <li>Authorization and authentication</li>
-                        </ul>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <section class="about " style="background: url(./assets/img/hero_test.jpg) center center; ">
-                <div class="container " data-aos="fade-up ">
-                    <div class="section-title ">
-                        <h2>Security</h2>
-                        <p>Data Encryption</p>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-11 order-1 order-lg-2 " data-aos="zoom-in " data-aos-delay="100 ">
-                            <div class="about-img ">
-                                <img src="assets/img/Security/Data encryption.png " alt=" ">
-                            </div>
-                        </div>
-                        <h3>Encryption in Server and Database</h3>
-                        <br><br>
-                        <p>The secure MongoDB, Atlas cluster ensures secure data encryption both at transit and rest using TSL and AES-256 standards</p>
-
-                    </div>
-                    <br><br>
-                    <div class="row ">
-                        <div class="col-lg-11 order-1 order-lg-2 " data-aos="zoom-in " data-aos-delay="100 ">
-                            <div class="about-img ">
-                                <img src="assets/img/Security/jitsi.png " alt=" ">
-                            </div>
-                        </div>
-                        <h3>Encryption in Jitsi-Meet server</h3>
-                        <br><br>
-                        <p>Jitsi-Meet provides end-to-end and hop-to-hop encryption for multiparty conferences.</p>
-                        <p>The meeting rooms are password protected and ephemeral.</p>
-
-                    </div>
-                    <br><br>
-                    <div class="row ">
-                        <div class="col-lg-11 order-1 order-lg-2 " data-aos="zoom-in " data-aos-delay="100 ">
-                            <div class="about-img ">
-                                <img src="assets/img/Security/local.PNG " alt=" ">
-                            </div>
-                        </div>
-                        <h3>Encrypting locally stored videos</h3>
-                        <br><br>
-                        <p>To ensure that students or any other third party cannot tamper locally stored recordings, they are encrypted using AES-256.</p>
-                        <p>Node.js's built-in cipher class File-encrypter is used to encrypt the recordings.</p>
-                        <p>AWS Key Management Service is used to control and manage the encryption keys.</p>
-
-                    </div>
-                </div>
-            </section>
-
-        </section>
-
-
-
-
-
-        <!-- ======= Features Section ======= -->
-        <section id="menu " class="menu section-bg ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Features</h2>
-                    <p>Check Our Amazing Features</p>
-                </div>
-
-                <div class="row " data-aos="fade-up " data-aos-delay="100 ">
-                    <div class="col-lg-12 d-flex justify-content-center ">
-                        <ul id="menu-flters ">
-                            <li data-filter="* " class="filter-active ">All</li>
-                            <li data-filter=".filter-starters ">For The Proctor</li>
-                            <li data-filter=".filter-salads ">For The Student</li>
-                            <!-- <li data-filter=".filter-phasesty ">Phasesty</li>-->
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row menu-container " data-aos="fade-up " data-aos-delay="200 ">
-
-                    <div class="col-lg-6 menu-item filter-starters ">
-                        <img src="assets/img/features/videoconference.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">video/audio feed</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Get video/audio feed from multiple students
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-starters ">
-                        <img src="assets/img/features/video-chat.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">One-on-one interaction</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            One-on-one interaction with students
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-starters ">
-                        <img src="assets/img/features/disconnetion.jpg " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Detect disconnections</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Detect disconneted students immediately
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-starters ">
-                        <img src="assets/img/features/unauthorized.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Detect unauthorized activities</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Detect unauthorized activities by warning messages
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-starters ">
-                        <img src="assets/img/features/notification.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Notify examinations</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Notify students about up coming examinations
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-salads ">
-                        <img src="assets/img/features/streaming.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Capture the video & audio</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Capture the video & audio stream from student's environment
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-salads ">
-                        <img src="assets/img/features/cloud-database.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Record and Upload</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Continuously record the video in case of a power failure and store it locally
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-salads ">
-                        <img src="assets/img/features/power-bank.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Backup Power</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            Continuous power supply even incase of a power failure
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-salads ">
-                        <img src="assets/img/features/tripod.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Easily mountable</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            can easily mountable on a surface
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-salads ">
-                        <img src="assets/img/features/chronometer.png " class="menu-img " alt=" ">
-                        <div class="menu-content ">
-                            <a href="# ">Display remaining time</a>
-
-                        </div>
-                        <div class="menu-ingredients ">
-                            See the remaining time on the screen
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Features Section -->
-
-        <!-- ======= Budget Section ======= -->
-
-        <section id="budget " class="budget ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Budget</h2>
-                    <p>Bill of Materials</p>
-                </div>
-
-                <table>
-                    <tr>
-                        <th>COMPONENT</th>
-                        <th>PRICE (Rs.)</th>
-                        <th>PLACE</th>
-                    </tr>
-                    <tr>
-                        <th style="border-right:0px ">FOR THE MAIN CIRCUIT</th>
-                        <td style="border:0px "></td>
-                        <td style="border-left:0px "></td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Rasberry pi board 3B+</td>
-                        <td>9500</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Rasberry pi power cable and adapter</td>
-                        <td>800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Touch screen 5' with integrated speaker</td>
-                        <td>6350</td>
-                        <td>tronic.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Speaker</td>
-                        <td>50</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">PAM8406 Digital Amplifier</td>
-                        <td>350</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Cooling Fan</td>
-                        <td>260</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Camera module</td>
-                        <td>1800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">USB Microphone</td>
-                        <td>485</td>
-                        <td>tronic.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Flash drive (SD card) 32gb</td>
-                        <td>1800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <th style="border-right: 0px; ">Total for the RPI</th>
-                        <th style="border: 0px; ">21395</th>
-                        <td style="border-left:0px "></td>
-                    </tr>
-
-                    <tr>
-                        <th style="border-right: 0px; ">FOR THE UPS</th>
-                        <td style="border-right:0px;border-left: 0px; "></td>
-                        <td style="border-left:0px "></td>
-                    </tr>
-                    <tr>
-                        <td>Lithium Battery 18650 1200mAH</td>
-                        <td>200</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>LM2596 Buck Converter</td>
-                        <td>650</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>BMS 18650 balanced charger with protection</td>
-                        <td>350</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>Capacitor 220 microF</td>
-                        <td>10</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>12V power inout barrel jack</td>
-                        <td>15</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Micro USB jack</td>
-                        <td>40</td>
-                        <td>Nilambara Electronis</td>
-                    </tr>
-                    <tr>
-                        <td>Miscellaneous</td>
-                        <td>500</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th style="border-right:0px ">TOTAL</th>
-                        <th style="border-left:0px; border-right:0px ">23160</th>
-                        <th style="border-left:0px "></th>
-                    </tr>
-
-                </table>
-
-            </div>
-
-        </section>
-
-        <!-- End of Budget -->
-
-
-
-
-
-        <!-- ======= Book A Table Section ======= 
-        <section id="book-a-table " class="book-a-table ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Reservation</h2>
-                    <p>Book a Table</p>
-                </div>
-
-                <form action="forms/book-a-table.php " method="post " role="form " class="php-email-form " data-aos="fade-up " data-aos-delay="100 ">
-                    <div class="row ">
-                        <div class="col-lg-4 col-md-6 form-group ">
-                            <input type="text " name="name " class="form-control " id="name " placeholder="Your Name " data-rule="minlen:4 " data-msg="Please enter at least 4 chars ">
-                            <div class="validate "></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0 ">
-                            <input type="email " class="form-control " name="email " id="email " placeholder="Your Email " data-rule="email " data-msg="Please enter a valid email ">
-                            <div class="validate "></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0 ">
-                            <input type="text " class="form-control " name="phone " id="phone " placeholder="Your Phone " data-rule="minlen:4 " data-msg="Please enter at least 4 chars ">
-                            <div class="validate "></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 form-group mt-3 ">
-                            <input type="text " name="date " class="form-control " id="date " placeholder="Date " data-rule="minlen:4 " data-msg="Please enter at least 4 chars ">
-                            <div class="validate "></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 form-group mt-3 ">
-                            <input type="text " class="form-control " name="time " id="time " placeholder="Time " data-rule="minlen:4 " data-msg="Please enter at least 4 chars ">
-                            <div class="validate "></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 form-group mt-3 ">
-                            <input type="number " class="form-control " name="people " id="people " placeholder="# of people " data-rule="minlen:1 " data-msg="Please enter at least 1 chars ">
-                            <div class="validate "></div>
-                        </div>
-                    </div>
-                    <div class="form-group mt-3 ">
-                        <textarea class="form-control " name="message " rows="5 " placeholder="Message "></textarea>
-                        <div class="validate "></div>
-                    </div>
-                    <div class="mb-3 ">
-                        <div class="loading ">Loading</div>
-                        <div class="error-message "></div>
-                        <div class="sent-message ">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-                    </div>
-                    <div class="text-center "><button type="submit ">Book a Table</button></div>
-                </form>
-
-            </div>
-        </section>
-        End Book A Table Section -->
-
-        <!-- ======= Testimonials Section ======= 
-        <section id="testimonials " class="testimonials section-bg ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Testimonials</h2>
-                    <p>What they're saying about us</p>
-                </div>
-
-                <div class="testimonials-slider swiper-container " data-aos="fade-up " data-aos-delay="100 ">
-                    <div class="swiper-wrapper ">
-
-                        <div class="swiper-slide ">
-                            <div class="testimonial-item ">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left "></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                    risus at semper.
-                                    <i class="bx bxs-quote-alt-right quote-icon-right "></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-1.jpg " class="testimonial-img " alt=" ">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
-                            </div>
-                        </div>
-                        
-
-                        <div class="swiper-slide ">
-                            <div class="testimonial-item ">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left "></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure
-                                    amet legam anim culpa.
-                                    <i class="bx bxs-quote-alt-right quote-icon-right "></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-2.jpg " class="testimonial-img " alt=" ">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
-                            </div>
-                        </div>
-                        
-
-                        <div class="swiper-slide ">
-                            <div class="testimonial-item ">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left "></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                    minim.
-                                    <i class="bx bxs-quote-alt-right quote-icon-right "></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-3.jpg " class="testimonial-img " alt=" ">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
-                            </div>
-                        </div>
-                        
-
-                        <div class="swiper-slide ">
-                            <div class="testimonial-item ">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left "></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                    dolore labore illum veniam.
-                                    <i class="bx bxs-quote-alt-right quote-icon-right "></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-4.jpg " class="testimonial-img " alt=" ">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
-                            </div>
-                        </div>
-                        
-
-                        <div class="swiper-slide ">
-                            <div class="testimonial-item ">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left "></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse
-                                    veniam culpa fore nisi cillum quid.
-                                    <i class="bx bxs-quote-alt-right quote-icon-right "></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-5.jpg " class="testimonial-img " alt=" ">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-                    <div class="swiper-pagination "></div>
-                </div>
-
-            </div>
-        </section>
-        End Testimonials Section -->
-
-        <!-- ======= Gallery Section ======= 
-        <section id="gallery " class="gallery ">
-
-            <div class="container " data-aos="fade-up ">
-                <div class="section-title ">
-                    <h2>Gallery</h2>
-                    <p>Some photos from Our Restaurant</p>
-                </div>
-            </div>
-
-            <div class="container-fluid " data-aos="fade-up " data-aos-delay="100 ">
-
-                <div class="row g-0 ">
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-1.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-1.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-2.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-2.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-3.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-3.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-4.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-4.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-5.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-5.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-6.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-6.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-7.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-7.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 ">
-                        <div class="gallery-item ">
-                            <a href="assets/img/gallery/gallery-8.jpg " class="gallery-lightbox " data-gall="gallery-item ">
-                                <img src="assets/img/gallery/gallery-8.jpg " alt=" " class="img-fluid ">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-         End Gallery Section -->
-
-        <!-- ======= Team ======= -->
-        <section id="team " class="team ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Our Team</h2>
-                    <p>Developers</p>
-                </div>
-
-                <div class="row ">
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="100 ">
-                            <img src="assets/img/team/isuri.jpg " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info-content ">
-                                    <h4>Isuri Devindi</h4>
-                                    <span>E/17/058</span>
-                                </div>
-                                <div class="social ">
-                                    <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                                    <a href=" "><i class="bi bi-facebook "></i></a>
-                                    <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                    <a href="https://www.linkedin.com/in/isuri-devindi-b8602a206 "><i class="bi bi-linkedin "></i></a>
-                                    <a href="https://github.com/isuridevindi "><i class="bi bi-github "></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="200 ">
-                            <img src="assets/img/team/sashini.jpg " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info ">
-                                    <div class="member-info-content ">
-                                        <h4>Sashini Liyanage</h4>
-                                        <span>E/17/190</span>
-                                    </div>
-                                    <div class="social ">
-                                        <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                                    <a href=" "><i class="bi bi-facebook "></i></a>
-                                    <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                        <a href="# "><i class="bi bi-linkedin "></i></a>
-                                        <a href="https://github.com/SashiniLiyanage "><i class="bi bi-github "></i></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="300 ">
-                            <img src="assets/img/team/savindu.jpg " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info-content ">
-                                    <h4>Savindu Wannigama</h4>
-                                    <span>E/17/369</span>
-                                </div>
-                                <div class="social ">
-                                    <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                              <a href=" "><i class="bi bi-facebook "></i></a>
-                              <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                    <a href="https://www.linkedin.com/in/savindu-wannigama-a62141216 "><i class="bi bi-linkedin "></i></a>
-                                    <a href="https://github.com/savinduwannigama "><i class="bi bi-github "></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!--========Advisors===========-->
-
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <p>Advisors</p>
-                </div>
-
-                <div class="row ">
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="100 ">
-                            <img src="assets/img/team/profRagel.jpg " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info-content ">
-                                    <h4>Prof. Roshan Ragel</h4>
-                                    <span>Professor</span>
-                                </div>
-                                <div class="social ">
-                                    <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                                    <a href=" "><i class="bi bi-facebook "></i></a>
-                                    <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                    <a href="https://lk.linkedin.com/in/roshanragel "><i class="bi bi-linkedin "></i></a>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="100 ">
-                            <img src="assets/img/team/drisuru.PNG " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info-content ">
-                                    <h4>Dr. Isuru Nawinne</h4>
-                                    <span>Senior Lecturer</span>
-                                </div>
-                                <div class="social ">
-                                    <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                                  <a href=" "><i class="bi bi-facebook "></i></a>
-                                  <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                    <a href="https://lk.linkedin.com/in/isuru-nawinne-73302833 "><i class="bi bi-linkedin "></i></a>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="member " data-aos="zoom-in " data-aos-delay="200 ">
-                            <img src="assets/img/team/drmahanama.PNG " class="img-fluid " alt=" ">
-                            <div class="member-info ">
-                                <div class="member-info ">
-                                    <div class="member-info-content ">
-                                        <h4>Dr. Mahanama Wickaramasinghe</h4>
-                                        <span>Senior Lecturer</span>
-                                    </div>
-                                    <div class="social ">
-                                        <!--<a href=" "><i class="bi bi-twitter "></i></a>
-                                  <a href=" "><i class="bi bi-facebook "></i></a>
-                                  <a href=" "><i class="bi bi-instagram "></i></a>-->
-                                        <a href="https://www.linkedin.com/in/mahanama "><i class="bi bi-linkedin "></i></a>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Team Section -->
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact " class="contact ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="section-title ">
-                    <h2>Contact</h2>
-                    <p>Contact Us</p>
-                </div>
-            </div>
-
-            <!--<div data-aos="fade-up ">
-                <iframe style="border:0; width: 100%; height: 350px; " src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621 "
-                    frameborder="0 " allowfullscreen></iframe>
-            </div>-->
-
-            <div class="container " data-aos="fade-up ">
-
-
-
-                <div class="col-lg-4 ">
-                    <div class="info ">
-                        <div class="email ">
-                            <i class="bi bi-envelope "></i>
-                            <h4>Email:</h4>
-                            <p>connexa.info@gmail.com</p>
-                        </div>
-
-                        <div class="phone ">
-                            <i class="bi bi-phone "></i>
-                            <h4>Call:</h4>
-                            <p>Isuri- +94713713686</p>
-                            <p>Sashini- +94713585988</p>
-                            <p>Savindu- +94776259252</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- <div class="col-lg-8 mt-5 mt-lg-0 ">
-
-                        <form action="forms/contact.php " method="post " role="form " class="php-email-form ">
-                            <div class="row ">
-                                <div class="col-md-6 form-group ">
-                                    <input type="text " name="name " class="form-control " id="name " placeholder="Your Name " required>
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0 ">
-                                    <input type="email " class="form-control " name="email " id="email " placeholder="Your Email " required>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3 ">
-                                <input type="text " class="form-control " name="subject " id="subject " placeholder="Subject " required>
-                            </div>
-                            <div class="form-group mt-3 ">
-                                <textarea class="form-control " name="message " rows="8 " placeholder="Message " required></textarea>
-                            </div>
-                            <div class="my-3 ">
-                                <div class="loading ">Loading</div>
-                                <div class="error-message "></div>
-                                <div class="sent-message ">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center "><button type="submit ">Send Message</button></div>
-                        </form>
-
-                    </div>-->
-
-
-
-            </div>
-        </section>
-        <!-- End Contact Section -->
-
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= 
-    <footer id="footer ">
-        <div class="footer-top ">
-            <div class="container ">
-                <div class="row ">
-
-                    <div class="col-lg-3 col-md-6 ">
-                        <div class="footer-info ">
-                            <h3>Restaurantly</h3>
-                            <p>
-                                A108 Adam Street <br> NY 535022, USA<br><br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
-                            </p>
-                            <div class="social-links mt-3 ">
-                                <a href="# " class="twitter "><i class="bx bxl-twitter "></i></a>
-                                <a href="# " class="facebook "><i class="bx bxl-facebook "></i></a>
-                                <a href="# " class="instagram "><i class="bx bxl-instagram "></i></a>
-                                <a href="# " class="google-plus "><i class="bx bxl-skype "></i></a>
-                                <a href="# " class="linkedin "><i class="bx bxl-linkedin "></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links ">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Home</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">About us</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Services</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Terms of service</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Privacy policy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links ">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right "></i> <a href="# ">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-newsletter ">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <form action=" " method="post ">
-                            <input type="email " name="email "><input type="submit " value="Subscribe ">
-                        </form>
-
-                    </div>
-
-                </div>
-            </div>
         </div>
 
-        <div class="container ">
-            <div class="copyright ">
-                &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, December 12</span>
+                <span class="post-author"> / Julia Parker</span>
+              </div>
+              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+              <p>Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel omnis laudantium. Asperiores eum ipsa est officiis. Modi qui magni est...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-            <div class="credits ">
-                 All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version. 
-                 Licensing information: https://bootstrapmade.com/license/ 
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ 
-                Designed by <a href="https://bootstrapmade.com/ ">BootstrapMade</a>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+              <p>Voluptatem nesciunt omnis libero autem tempora enim ut ipsam id. Odit quia ab eum assumenda. Quisquam omnis doloribus...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / Lisa Hunter</span>
+              </div>
+              <h3 class="post-title">Quia assumenda est et veritati</h3>
+              <p>Quia nam eaque omnis explicabo similique eum quaerat similique laboriosam. Quis omnis repellat sed quae consectetur magnam...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, Sep 16</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">Pariatur quia facilis similique deleniti</h3>
+              <p>Et consequatur eveniet nam voluptas commodi cumque ea est ex. Aut quis omnis sint ipsum earum quia eligendi...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
         </div>
-    </footer>
-    End Footer -->
 
-    <!-- <div id="preloader "></div> -->
-    <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
+      </div>
+    </section> -->
+    <!-- End Recent Blog Posts Section -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js "></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
-    <script src="assets/vendor/php-email-form/validate.js "></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+    
+  </main><!-- End #main -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js "></script>
+  <!-- ======= Footer ======= -->
+  <!-- <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>Nova</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links d-flex  mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Nova</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+           All the links in the footer should remain intact. 
+          You can delete the links only if you purchased the pro version. 
+           Licensing information: https://bootstrapmade.com/license/ 
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ 
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <!-- End Footer -->
+  
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

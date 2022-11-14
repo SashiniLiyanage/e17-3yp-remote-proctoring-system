@@ -2,408 +2,426 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Remote Proctoring Device</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Connexa - Phase5</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/universityLogo.png" rel="icon">
-    <link href="assets/img/universityLogo.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <style>
-        .reduceWidth {
-            width: 50%;
-        }
-    </style>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Nova - v1.2.1
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
+<body class="page-team">
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-cente">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <h1 class="logo me-auto me-lg-0"><img src="assets/img/appicon.png"><a href="index.html"> Connexa</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">Connexa</h1>
+        <img src="assets/img/appicon.png" style="padding-left:10px"/>
+      </a>
 
-            <nav id="navbar" class="navbar order-last order-lg-0">
-                <ul>
-                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#tech">Solutions</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#menu">Features</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#budget">Budget</a></li>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-                    <li class="dropdown"><a class="nav-link scrollto" href="index.html#phasess"><span>Timeline</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="phase1.html">Designing overall system</a></li>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>Phases</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="phase1.html">Design Achitecture</a></li>
+              <li><a href="phase2.html">Frontend Implementation</a></li>
+              <li><a href="phase3.html">Backend Implementation</a></li>
+              <li><a href="phase4.html">Hardware implementation</a></li>
+              <li><a href="phase5.html">Testing and integration</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html" class="active">Team</a></li>
+        </ul>
+      </nav><!-- .navbar -->
 
-                            <li class="dropdown"><a href="phase2.html">Frontends Implementations</a>
-                                <ul>
-                                    <li><a href="phase2.html#student">Students' UI</a></li>
-                                    <li><a href="phase2.html#proctor">Proctors' UI</a></li>
-                                    <li><a href="phase2.html#admin">Administrators' UI</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="phase3.html">Backend Implementation</a></li>
-                            <li><a href="phase4.html">Hardware Implementation</a></li>
-                            <li><a href="phase5.html">Testing and Integration</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-            <!-- .navbar 
-            <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
-            -->
-        </div>
-    </header>
-    <!-- End Header -->
+    </div>
+  </header><!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-            <h3>PHASE 5 : <span>Testing and Integration</span></h3>
+  <main id="main">
 
-        </div>
-    </section>
-    <!-- End Hero -->
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/team-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
 
-    <main id="main">
+        <h2>Testing and Integration</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Phase5</li>
+        </ol>
 
+      </div>
+    </div><!-- End Breadcrumbs -->
 
-        <!--=================Add The Sections Here==========================-->
-        <section id="testing">
-            <div class="container" data-aos="fade-up">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-                <div class="section-title">
-                    <h2>Software Testing plan</h2>
-                    <p></p>
-                </div>
-
-                <p class="fst-italic"> Functional requirements will be tested under three main stages</p>
-                <ul style="list-style: none">
-                    <li><i class="bi bi-check-circle"></i> Unit testing </li>
-                    <li><i class="bi bi-check-circle"></i> Integration testing </li>
-                    <li><i class="bi bi-check-circle"></i> End-to-end testing</li>
-                </ul>
-
+        <div class="row" data-aos="fade-up">
+          <div>
+            <div class="content ps-lg-5">
+              <h3>Software Testing</h3>
+              <p align="justify">
+                Functional requirements is tested under three main stages
+              </p>
+              
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Unit testing</li>
+                <li><i class="bi bi-check-circle-fill"></i> Integration testing</li>
+                <li><i class="bi bi-check-circle-fill"></i> End-to-end testing</li>
+              </ul>
             </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row" data-aos="fade-up">
+          <div>
+            <div class="content ps-lg-5">
+              <h3>Hardware Testing</h3>
+              <p align="justify">
+                The functionality of the sensors will be tested before connecting them to the circuit.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Test the resolution of the camera and power consumption when video streaming.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Test the audio quality of the microphone and speaker.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Test the resolution and touch control of the LCD display.</li>
+              </ul>
+              <p align="justify">
+                The power supply unit is tested thoroughly under the following conditions.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i>  Life time, current and power consumption of a fully charged power unit without direct supply when the device is idle.
+                </li>
+                <li><i class="bi bi-check-circle-fill"></i>  Life time, current and power consumption of a fully charged power unit without direct supply when the device is streaming audio and video.
+                </li>
+                <li><i class="bi bi-check-circle-fill"></i>  Life time, current and power consumption of a fully charged power unit without direct supply with the backlight control of the LCD display switched on (Low power mode).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-            <section id="testing">
-                <div class="container" data-aos="fade-up">
+      </div>
+    </section>
 
-                    <div class="section-title">
-                        <h2>Hardware Testing plan</h2>
-                        <p></p>
+    
+
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="fade-up">
+        <div class="details">
+          <div class="container" data-aos="fade-up" data-aos-delay="300">
+            <div class="row">
+              <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+    
+                <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="300">
+      
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                  <div class="system">
+                    <a href="assets/img/Testing/unit.png" title="Unit testing" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Testing/unit.png" class="img-fluid" alt=""></a>
+                    <p>
+                      <h5 style="color: white">Unit testing</h5>
+                    </p>
+                  </div>
+                  </div><!-- End Portfolio Item -->
+    
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                    <div class="system">
+                    <a href="assets/img/Testing/Integration.png" title="Integration testing" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Testing/Integration.png" class="img-fluid" alt=""></a>
+                    <p>
+                      <h5 style="color: white">Integration testing</h5>
+                      </p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-10">
-                            <p class="fst-italic"> The functionality of the sensors will be tested before connecting them to the circuit.</p>
-                            <ul style="list-style: none">
-                                <li><i class="bi bi-check-circle"></i> Test the resolution of the camera and power consumption when video streaming.</li>
-                                <br>
-                                <li><i class="bi bi-check-circle"></i> Test the audio quality of the microphone and speaker.<br></li>
-                                <br>
-                                <li><i class="bi bi-check-circle"></i> Test the resolution and touch control of the LCD display.<br></li>
+                  </div><!-- End Portfolio Item -->
+                  
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+                    <div class="system">
+                    <a href="assets/img/Testing/end.png" title="End-to-end testing" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/Testing/end.png" class="img-fluid" alt=""></a>
+                    <p>
+                      <h5 style="color: white">End-to-end testing</h5>
+                      </p>
+                     </div>
+                  </div><!-- End Portfolio Item -->
+      
+                </div><!-- End Portfolio Container -->
+      
+              </div>
+      
+            </div>
+    
+          </div>
+        </div>
 
-                            </ul>
-                            <p class="fst-italic"> The power supply unit will be tested thoroughly under the following conditions.</p>
-                            <ul style="list-style: none">
-                                <li><i class="bi bi-check-circle"></i> Life time, current and power consumption of a fully charged power unit without direct supply when the device is idle.<br></li>
-                                <br>
-                                <li><i class="bi bi-check-circle"></i> Life time, current and power consumption of a fully charged power unit without direct supply when the device is streaming audio and video.<br></li>
-                                <br>
-                                <li><i class="bi bi-check-circle"></i> Life time, current and power consumption of a fully charged power unit without direct supply with the backlight control of the LCD display switched on (Low power mode).<br></li>
+      </div>
+    </section>
 
-                            </ul>
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
 
-                        </div>
-                    </div>
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="slides-1 portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/studentsappUnitTesting.gif" alt="">
                 </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
 
-            </section>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Desktop app unit testing</h3>
+              <ul>
+                <li>Tools: <strong>Spectron and Mocha</strong></li>
+                <li align="center"><img src="assets/img/Testing/spectron.png"></li>
+              </ul>
+            </div>
+          </div>
 
-            <section class="about" style="background: url(./assets/img/hero_test.jpg) center center;">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Overall system testing</h2>
-                        <p>Unit testing</p>
-                    </div>
+        </div>
 
-                    <div class="row reduceWidth">
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/unit.png" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/unit.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
+      </div>
+    </section>
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
 
-                    <div class="row reduceWidth">
-                        <h3>Students application unit testing</h3>
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/studentsappUnitTesting.gif" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/studentsappUnitTesting.gif" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="row reduceWidth">
-                        <h3>Proctors' web application unit testing</h3>
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/proctorWebappUnitTesting.gif" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/proctorWebappUnitTesting.gif" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="row g-0 ">
-                        <h4>Test codes</h4>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test1_1.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test1_1.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
+        <div class="row gy-4">
 
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test1_2.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test1_2.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
+          <div class="col-lg-8">
+            <div class="slides-1 portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
 
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test1_3.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test1_3.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test1_4.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test1_4.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test2_1.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test2_1.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test2_2.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test2_2.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test2_3.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test2_3.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div class="gallery-item">
-                                <a href="assets/img/Testing/test2_4.png" class="gallery-lightbox" data-gall="gallery-item">
-                                    <img src="assets/img/Testing/test2_4.png" alt="" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <br><br>
-                    <br><br>
-                    <div class="row reduceWidth">
-                        <h3>Student side API unit testing</h3>
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/studentAPI.gif" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/studentAPI.gif" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="row reduceWidth">
-                        <h3>Admin side API unit testing</h3>
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/adminAPI.gif" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/adminAPI.gif" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="row reduceWidth">
-                        <h3>Proctor side API unit testing</h3>
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/proctorAPI.gif" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/proctorAPI.gif" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="section-title">
-                        <p>Integration testing</p>
-                    </div>
-
-                    <div class="row reduceWidth">
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/Integration.png" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/Integration.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-
-                    <div class="section-title">
-
-                        <p>End-to-end testing</p>
-                    </div>
-                    <div class="row reduceWidth">
-                        <div class="gallery-item">
-                            <a href="assets/img/Testing/end.png" class="gallery-lightbox" data-gall="gallery-item">
-                                <img src="assets/img/Testing/end.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/proctorWebappUnitTesting.gif" alt="">
                 </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
 
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Web app unit testing</h3>
+              <ul>
+                <li>Tools: <strong>Jest</strong></li>
+                <li align="center"><img src="assets/img/Testing/jest.png"></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="slides-1 portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/adminAPI.gif" alt="">
                 </div>
-            </section>
-
-
-            <section id="components" class="phasess">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Technologies used for testing</h2>
-
-                    </div>
-
-                    <div class="row" data-aos="fade-up" data-aos-delay="100">
-                        <div class="col-lg-3">
-                            <ul class="nav nav-tabs flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Frontend testing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#tab-2">API testing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#tab-3">End-to-end testing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Security testing</a>
-                                </li>
-
-
-                            </ul>
-                        </div>
-                        <div class="col-lg-9 mt-4 mt-lg-0">
-                            <div class="tab-content">
-                                <div class="tab-pane active show" id="tab-1">
-                                    <div class="row">
-                                        <h3>Frontend testing</h3>
-                                        <div class="col-lg-4 order-2 order-lg-1">
-
-                                            <img src="assets/img/Testing/jest.png" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="col-lg-4 order-1 order-lg-2">
-
-                                            <img src="assets/img/Testing/spectron.png" alt="" class="img-fluid">
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="tab-pane" id="tab-2">
-                                    <div class="row">
-                                        <h3>API testing</h3>
-                                        <div class="col-lg-4 details order-2 order-lg-1">
-
-                                            <img src="assets/img/Testing/postman.png" alt="" class="img-fluid">
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane" id="tab-3">
-                                    <div class="row">
-                                        <h3>End-to-end testing</h3>
-                                        <div class="col-lg-7 details order-2 order-lg-1">
-
-                                            <img src="assets/img/Testing/selenium.png" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane" id="tab-4">
-                                    <div class="row">
-                                        <h3>Security testing</h3>
-                                        <div class="col-lg-5 details order-2 order-lg-1">
-
-                                            <img src="assets/img/Testing/netsparker.jpg" alt="" class="img-fluid">
-                                        </div>
-                                        <div class="col-lg-5 details order-2 order-lg-1">
-
-                                            <img src="assets/img/Testing/NoGotofail.jpg" alt="" class="img-fluid">
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/proctorAPI.gif" alt="">
                 </div>
-            </section>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/studentAPI.gif" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
 
-        </section>
-        <!--=================End Of The Sections ==========================-->
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>API testing</h3>
+              <ul>
+                <li>Tools: <strong>Postman</strong></li>
+                <li align="center"><img src="assets/img/Testing/postman.png"></li>
+              </ul>
+            </div>
+          </div>
 
+        </div>
 
-        <div id="preloader"></div>
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      </div>
+    </section>
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <div class="row gy-4">
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
+          <div class="col-lg-8">
+            <div class="slides-1 portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test1_1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test1_2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test1_4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test2_1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test2_2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test2_3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/Testing/test2_4.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Integration testing</h3>
+              <ul>
+                <li>Tools: <strong>Selenium</strong></li>
+                <li align="center"><img src="assets/img/Testing/selenium.png"></li>
+              </ul>
+            </div>
+            <div class="portfolio-info">
+              <h3>End-to-end testing</h3>
+              <ul>
+                <li>Tools: <strong>netsparker and NoGotofail</strong></li>
+                <li align="center">
+                  <img src="assets/img/Testing/netsparker.jpg">
+                  <img src="assets/img/Testing/NoGotofail.jpg"
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Other Phases</h2>
+
+        </div>
+
+        <div class="row gy-5">
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/system/system.PNG" class="img-fluid" alt="" style="height:200px"></div>
+              
+              <h3 class="post-title">Design Architecture</h3>
+              <p>The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power ....</p>
+              <a href="phase1.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/students_desktopapp/student.gif" class="img-fluid" alt="" style="height:200px"></div>
+              <h3 class="post-title">Frontend Implementation</h3>
+              <p>The student can create an account in the platform by registering to the service. Once the students email is verified....</p>
+              <a href="phase2.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/backend/database.jpeg" class="img-fluid" alt="" style="height:200px"></div>
+
+              <h3 class="post-title">Backend Implementation</h3>
+              <p>The two types of users proctor & student are defined using a disjoint specialization. Exam, Course, Device, and Recording....</p>
+              <a href="phase3.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/hardware/circuit1_bb.png" class="img-fluid" alt="" style="height:200px"></div>
+              
+              <h3 class="post-title">Hardware Implementation</h3>
+              <p>The proctoring device in the student's side has 2 main components.The raspberry pi 3B+ module with a touch screen,camera, ....</p>
+              <a href="phase4.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          </div>
+
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
