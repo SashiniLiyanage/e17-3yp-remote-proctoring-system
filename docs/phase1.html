@@ -2,298 +2,354 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Remote Proctoring Device</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Connexa - Phase1</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/universityLogo.png" rel="icon">
-    <link href="assets/img/universityLogo.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/info.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: Nova - v1.2.1
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
+<body class="page-team">
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-cente">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <h1 class="logo me-auto me-lg-0"><img src="assets/img/appicon.png"><a href="index.html"> Connexa</a></h1>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">Connexa</h1>
+        <img src="assets/img/appicon.png" style="padding-left:10px"/>
+      </a>
 
-            <nav id="navbar" class="navbar order-last order-lg-0">
-                <ul>
-                    <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#tech">Solutions</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#menu">Features</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#budget">Budget</a></li>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-                    <li class="dropdown"><a class="nav-link scrollto" href="index.html#phasess"><span>Timeline</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="phase1.html">Designing overall system</a></li>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li class="dropdown"><a href="#"><span>Phases</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="phase1.html">Design Achitecture</a></li>
+              <li><a href="phase2.html">Frontend Implementation</a></li>
+              <li><a href="phase3.html">Backend Implementation</a></li>
+              <li><a href="phase4.html">Hardware implementation</a></li>
+              <li><a href="phase5.html">Testing and integration</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html" class="active">Team</a></li>
+        </ul>
+      </nav><!-- .navbar -->
 
-                            <li class="dropdown"><a href="phase2.html">Frontends Implementations</a>
-                                <ul>
-                                    <li><a href="phase2.html#student">Students' UI</a></li>
-                                    <li><a href="phase2.html#proctor">Proctors' UI</a></li>
-                                    <li><a href="phase2.html#admin">Administrators' UI</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="phase3.html">Backend Implementation</a></li>
-                            <li><a href="phase4.html">Hardware Implementation</a></li>
-                            <li><a href="phase5.html">Testing and Integration</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/team-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>Design Architecture</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>phase1</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+   
+
+    <section class="team">
+      <div class="container" data-aos="fade-up">
+        
+        <div class="card mb-3 text-light" style="background-color: rgba(2, 17, 39,0.95)">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <a href="assets/img/system/oursystem.PNG" title="System" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/oursystem.PNG" class="img-fluid" alt=""></a>
+                  
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">System</h3>
+                <p class="card-text">
+                  The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power failure. The proctor will be able to monitor the video and audio streams captured from all the students facing an examination
+                  through the browser application in the proctor's side.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
-    <!--======== End Header ==========-->
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-            <h3>PHASE 1 : <span>Determine the design architecture and connections of overall infrastructure
-                
-            </span></h3>
-
+        <div class="card mb-3 text-light" style="background-color: rgba(2, 17, 39,0.95)">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <a href="assets/img/system/system.PNG" title="System" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/system.PNG" class="img-fluid" alt=""></a>
+                  
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">High-level System Overview</h3>
+                <p class="card-text">
+                  Method used to ensure secure video/audio streaming:<br><br>HTTPS protects the user from “Man-in-the-Middle” attacks where hackers can use vulnerabilities in public networks to steal data transmitted to the viewer.
+                  Using HLS encryption to mask a user's connection with the website can prevent this sort of attack.</p>
+                                    
+                </p>
+              </div>
+            </div>
+           
+          </div>
         </div>
+        <div class="card mb-3 text-light" style="background-color: rgba(2, 17, 39,0.95)">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <a href="assets/img/system/technology.PNG" title="System" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><img src="assets/img/system/technology.PNG" class="img-fluid" alt=""></a>
+                  
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Technology Stack</h3>
+                <p class="card-text">
+                  <p>The system consists of three main endpoints</p>
+                  <ul>
+                      <li>Web browser in Proctor's end</li>
+                      <li>Desktop application in Student's end</li>
+                      <li>Database and server application hosted on the Cloud</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
-    <!-- End Hero -->
-
-    <main id="main">
-        <!--=================Add The Sections Here==========================-->
-        <section id="events" class="events">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>System Overview</h2>
-                    <p>What Are The Technology We Use</p>
-                </div>
-
-                <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <a href="assets/img/system/oursystem.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                        <img src="assets/img/system/oursystem.PNG" alt="" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>SYSTEM</h3>
-                                    <p>
-                                        The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power failure. The proctor will be able to monitor the video and audio streams captured from all the students facing an examination
-                                        through the browser application in the proctor's side.</p>
-                                </div>
-                            </div>
-                        </div>
+    <!-- End Team Section -->
 
 
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <a href="assets/img/system/system.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                        <img src="assets/img/system/system.PNG" alt="" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>High-Level System Overview</h3>
-                                    <p>
-                                        Method used to ensure secure video/audio streaming:<br><br>HTTPS protects the user from “Man-in-the-Middle” attacks where hackers can use vulnerabilities in public networks to steal data transmitted to the viewer.
-                                        Using HLS encryption to mask a user's connection with the website can prevent this sort of attack.</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+    <section id="budget" class="budget">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Bill of Materials</h2>
+  
+        </div>
+
+          <table class="center" style="background-color:rgba(2, 17, 39,0.95); color: white">
+              <tr>
+                  <th>COMPONENT</th>
+                  <th>PRICE (Rs.)</th>
+                  <th>PLACE</th>
+              </tr>
+              <tr>
+                  <th style="border-right:0px">FOR the RPI</th>
+                  <td style="border:0px"></td>
+                  <td style="border-left:0px"></td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Rasberry pi board 3B+</td>
+                  <td>9500</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Rasberry pi power cable and adapter</td>
+                  <td>800</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Touch screen 5' with integrated speacker</td>
+                  <td>6350</td>
+                  <td>tronic.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Speaker</td>
+                  <td>50</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">PAM8406 Digital Amplifier</td>
+                  <td>350</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Cooling Fan</td>
+                  <td>260</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Camera module</td>
+                  <td>1800</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">USB Microphone</td>
+                  <td>485</td>
+                  <td>tronic.lk</td>
+              </tr>
+              <tr>
+                  <td class="text-left ">Flash drive (SD card) 32gb</td>
+                  <td>1800</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <th style="border-right: 0px;">Total for the RPI</th>
+                  <th style="border: 0px;">21395</th>
+                  <td style="border-left:0px"></td>
+              </tr>
+
+              <tr>
+                  <th>FOR THE UPS 2.0</th>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Lithium Battery 18650 1200mAH</td>
+                  <td>200</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td>LM2596 Buck Converter</td>
+                  <td>650</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td>BMS 18650 balanced charger with protection</td>
+                  <td>350</td>
+                  <td>microchip.lk</td>
+              </tr>
+              <tr>
+                  <td>Capacitor 220 microF</td>
+                  <td>10</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>12V power inout barrel jack</td>
+                  <td>15</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Micro USB jack</td>
+                  <td>40</td>
+                  <td>Nilambara Electronis</td>
+              </tr>
+              <tr>
+                  <th style="border-right:0px">TOTAL</th>
+                  <th style="border-left:0px; border-right:0px">22950</th>
+                  <th style="border-left:0px"></th>
+              </tr>
+
+          </table>
+
+      </div>
+
+  </section>
 
 
-                        <div class="swiper-slide">
-                            <div class="row event-item">
-                                <div class="col-lg-6">
-                                    <a href="assets/img/system/technology.PNG" class="gallery-lightbox" data-gall="gallery-item">
-                                        <img src="assets/img/system/technology.PNG" alt="" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Technology Stack</h3>
+  <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts">
+      <div class="container" data-aos="fade-up">
 
-                                    <p>The system consists of three main endpoints<br><br></p>
-                                    <ul>
-                                        <li>Web browser in Proctor's end</li>
-                                        <li>Desktop application in Student's end</li>
-                                        <li>Database and server application hosted on the Cloud</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        <div class="section-header">
+          <h2>Other Phases</h2>
 
+        </div>
 
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+        <div class="row gy-5">
 
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/students_desktopapp/student.gif" class="img-fluid" alt="" style="height:200px"></div>
+              <h3 class="post-title">Frontend Implementation</h3>
+              <p>The student can create an account in the platform by registering to the service. Once the students email is verified....</p>
+              <a href="phase2.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
-        </section>
-        <!-- ======= Budget Section ======= -->
+          </div>
 
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/backend/database.jpeg" class="img-fluid" alt="" style="height:200px"></div>
 
-        <section id="budget" class="budget">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Budget</h2>
-                    <p>Bill of Materials</p>
-                </div>
-
-                <table>
-                    <tr>
-                        <th>COMPONENT</th>
-                        <th>PRICE (Rs.)</th>
-                        <th>PLACE</th>
-                    </tr>
-                    <tr>
-                        <th style="border-right:0px">FOR the RPI</th>
-                        <td style="border:0px"></td>
-                        <td style="border-left:0px"></td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Rasberry pi board 3B+</td>
-                        <td>9500</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Rasberry pi power cable and adapter</td>
-                        <td>800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Touch screen 5' with integrated speacker</td>
-                        <td>6350</td>
-                        <td>tronic.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Speaker</td>
-                        <td>50</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">PAM8406 Digital Amplifier</td>
-                        <td>350</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Cooling Fan</td>
-                        <td>260</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Camera module</td>
-                        <td>1800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">USB Microphone</td>
-                        <td>485</td>
-                        <td>tronic.lk</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left ">Flash drive (SD card) 32gb</td>
-                        <td>1800</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <th style="border-right: 0px;">Total for the RPI</th>
-                        <th style="border: 0px;">21395</th>
-                        <td style="border-left:0px"></td>
-                    </tr>
-
-                    <tr>
-                        <th>FOR THE UPS 2.0</th>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Lithium Battery 18650 1200mAH</td>
-                        <td>200</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>LM2596 Buck Converter</td>
-                        <td>650</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>BMS 18650 balanced charger with protection</td>
-                        <td>350</td>
-                        <td>microchip.lk</td>
-                    </tr>
-                    <tr>
-                        <td>Capacitor 220 microF</td>
-                        <td>10</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>12V power inout barrel jack</td>
-                        <td>15</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Micro USB jack</td>
-                        <td>40</td>
-                        <td>Nilambara Electronis</td>
-                    </tr>
-                    <tr>
-                        <th style="border-right:0px">TOTAL</th>
-                        <th style="border-left:0px; border-right:0px">22950</th>
-                        <th style="border-left:0px"></th>
-                    </tr>
-
-                </table>
-
+              <h3 class="post-title">Backend Implementation</h3>
+              <p>The two types of users proctor & student are defined using a disjoint specialization. Exam, Course, Device, and Recording....</p>
+              <a href="phase3.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
+          </div>
 
-        </section>
-        <!-- End of Budget -->
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/hardware/circuit1_bb.png" class="img-fluid" alt="" style="height:200px"></div>
+              
+              <h3 class="post-title">Hardware Implementation</h3>
+              <p>The proctoring device in the student's side has 2 main components.The raspberry pi 3B+ module with a touch screen,camera, ....</p>
+              <a href="phase4.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
 
-        <!--=================End Of The Sections ==========================-->
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/Testing/proctorAPI.gif" class="img-fluid" alt="" style="height:200px"></div>
+              
+              <h3 class="post-title">Testing and Integration</h3>
+              <p>Functional requirements will be tested under three main stages.Unit testing, Integration testing, End-to-end testing ....</p>
+              <a href="phase5.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
 
-        <div id="preloader"></div>
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        </div>
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

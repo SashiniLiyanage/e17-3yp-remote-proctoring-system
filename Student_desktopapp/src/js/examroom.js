@@ -42,8 +42,6 @@ const options = {
         startWithVideoMuted: false,
         enableWelcomePage: false,
         prejoinPageEnabled: false,
-        //startSilent: true,
-        //startAudioMuted: 2,
         toolbarButtons: ['camera', 'chat',
             'microphone', 'raisehand'
         ],
@@ -52,7 +50,6 @@ const options = {
 
     },
     interfaceConfigOverwrite: {
-        // TILE_VIEW_MAX_COLUMNS: 2,
         DISABLE_DOMINANT_SPEAKER_INDICATOR: true,
         APP_NAME: 'Connexa',
         DEFAULT_LOGO_URL: '',
