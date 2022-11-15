@@ -12,18 +12,34 @@
     <script src='https://meet.jit.si/external_api.js'></script>
     <script defer src="js/examroom.js"></script>
     <script defer src="js/components/default-button.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <style>
+        .btn-label {
+        position: relative;
+        display: inline-block;
+        padding: 6px 12px;
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 3px 0 0 3px;
+    }
+
+    .btn-labeled {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    </style>
 </head>
 
 <body>
     <button id="recButton" class='notRec'></button>
-    <!-- <div id="status"></div> -->
     <div id="meet"></div>
 
 
 
     <div class='center'>
-        <button id="download" name='download' class='btn btn-red waves-effect waves-light' disabled>Leave meeting</button>
+        <button id="download" name='download' class='btn btn-red btn-labeled btn-info waves-effect waves-light' disabled><span class="btn-label"><i class="fa fa-sign-out"></i></span> Leave meeting</button>
+        <button id="mute" name='mute' class='btn btn-green btn-labeled btn-info waves-effect waves-light'  disabled><span class="btn-label"><i class="fa fa-user-times"></i></span> Noice Cancle</button>
+        <button id="unmute" name='unmute' class='btn btn-red btn-labeled btn-info waves-effect waves-light' disabled><span class="btn-label"><i class="fa fa-users"></i></span> Unmute All</button>
         <p id="errorMsg" style='color:white'></p>
     </div>
 

@@ -19,14 +19,14 @@
 
 .appName {
     position: absolute;
-    top: 5px;
-    left: 20px;
+    bottom: 40px;
+    left: 0;
     z-index: 10;
     font-family: DancingScript;
     text-shadow: 3px 3px rgb(175, 201, 219);
     color: #109696;
     font-weight: bold;
-    font-size: 70px!important;
+    font-size: 60px!important;
 }
 
 #frontimg {
@@ -45,8 +45,8 @@
     color: rgb(110, 110, 110);
     width: 200px;
     height: 60px;
-    left: 50px;
-    top: 80px;
+    left: 30px;
+    bottom: 10px;
 }
 
 body {

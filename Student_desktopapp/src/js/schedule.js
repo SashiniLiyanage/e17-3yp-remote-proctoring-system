@@ -63,7 +63,7 @@ function createEvents() {
             sessionStorage.setItem('videoPath', examArray[id][0].recordedStudentVideosAt)
             timenow = new Date();
 
-            if (info.event.start - now > 3600 * 1000 * 1 * 1) {
+            if (info.event.start - now > 3600 * 1000 * 1 * 1000) {
                 displayName.style.display = 'none';
                 joinbtn.style.display = 'none';
                 msg.innerHTML = "Link will be displayed one hour before the exam"
