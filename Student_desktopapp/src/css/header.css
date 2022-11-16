@@ -35,7 +35,7 @@ body {
     overflow-x: hidden;
     height: 100%;
     user-select: none;
-    background: var(--background-tile) fixed;
+    /* background: var(--background-tile) fixed; */
 }
 
 

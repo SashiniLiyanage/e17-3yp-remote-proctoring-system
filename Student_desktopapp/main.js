@@ -22,11 +22,8 @@ app.disableHardwareAcceleration();
 
 // Create browser window
 function createWindow() {
-    const { width, height } = screen.getPrimaryDisplay().workAreaSize
-    const mainWindow = new BrowserWindow({
-        width: width,
-        height: (width/5) * 3,
-        
+    // const { width, height } = screen.getPrimaryDisplay().workAreaSize
+    const mainWindow = new BrowserWindow({   
         // minimizable: false,
         maximizable: false,
         resizable: false,
@@ -81,6 +78,7 @@ function createWindow() {
 
     // no default menu
     mainWindow.setMenu(null);
+    mainWindow.maximize();
 
     // load main page
     mainWindow.loadFile('src/loginpage.html');
