@@ -50,10 +50,11 @@
 }
 
 body {
-    background-image: url("../img/icons/desktop1.jpeg");
-    background-size: cover;
+    background: url("../img/icons/desktop1.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Sansita', sans-serif;
+    height: 100%;
 }
 
 #outer, .welcome{
