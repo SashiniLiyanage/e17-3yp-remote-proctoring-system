@@ -4,6 +4,7 @@ const ipc = ipcRenderer
 
 
 var api;
+var mute = 0;
 var savedVideo = 'No saved video'
 
 /****************** variables **********************/
@@ -38,23 +39,36 @@ const options = {
         displayName: displayName,
     },
     configOverwrite: {
-        startWithAudioMuted: false,
-        startWithVideoMuted: false,
-        enableWelcomePage: false,
-        prejoinPageEnabled: false,
-        toolbarButtons: ['camera', 'chat',
-            'microphone', 'raisehand'
-        ],
-        notifications: ['toolbar.talkWhileMutedPopup', 'notify.mutedTitle'],
-        disabledSounds: ['NOISY_AUDIO_INPUT_SOUND', 'PARTICIPANT_JOINED_SOUND', 'PARTICIPANT_LEFT_SOUND']
+        startWithAudioMuted: true,
+                startWithVideoMuted: true,
+                enableWelcomePage: false,
+                prejoinPageEnabled: false,
+                disableFilmstripAutohiding: false,
+                disableReactions: true,
+                disableChatSmileys: true,
+                disableRemoteMute: true,
+                disablePolls: true,
+                disableJoinLeaveSounds: true,
+                connectionIndicators: {
+                    disabled: true,
+                },
+                speakerStatsOrder: ['name'],
+                remoteVideoMenu: {
+                    disableKick: true,
+                },
+                toolbarButtons: ['camera', 'microphone', 'raisehand', 'chat', 'profile'],
+                notifications: ['toolbar.talkWhileMutedPopup', 'notify.mutedTitle'],
+                disabledSounds: ['E2EE_OFF_SOUND', 'E2EE_ON_SOUND', 'KNOCKING_PARTICIPANT_SOUND', 'LIVE_STREAMING_OFF_SOUND', 'LIVE_STREAMING_ON_SOUND', 'NO_AUDIO_SIGNAL_SOUND', 'NOISY_AUDIO_INPUT_SOUND', 'OUTGOING_CALL_EXPIRED_SOUND', 'OUTGOING_CALL_REJECTED_SOUND', 'OUTGOING_CALL_RINGING_SOUND', 'OUTGOING_CALL_START_SOUND', 'PARTICIPANT_JOINED_SOUND', 'PARTICIPANT_LEFT_SOUND', 'RAISE_HAND_SOUND', 'REACTION_SOUND', 'RECORDING_OFF_SOUND', 'RECORDING_ON_SOUND']
 
-    },
-    interfaceConfigOverwrite: {
-        DISABLE_DOMINANT_SPEAKER_INDICATOR: true,
-        APP_NAME: 'Connexa',
-        DEFAULT_LOGO_URL: '',
+            },
+            interfaceConfigOverwrite: {
+                TILE_VIEW_MAX_COLUMNS: 1,
+                SETTINGS_SECTIONS: ['profile'],
+                // DEFAULT_BACKGROUND: '#fff',
+                DISABLE_DOMINANT_SPEAKER_INDICATOR: true,
+                VIDEO_QUALITY_LABEL_DISABLED: true,
 
-    },
+            },
 
     parentNode: document.querySelector('#meet')
 };
@@ -68,7 +82,8 @@ let recordedBlobs;
 
 const errorMsgElement = document.querySelector('p#errorMsg');
 const downloadButton = document.querySelector('button#download');
-
+const muteButton = document.querySelector('button#mute');
+const unmuteButton = document.querySelector('button#unmute');
 
 
 window.addEventListener('offline', () => {
@@ -94,6 +109,8 @@ downloadButton.addEventListener('click', () => {
     mediaRecorder.resume();
     stopRecording();
     downloadButton.style.display = 'none';
+    muteButton.style.display = 'none';
+    unmuteButton.style.display = 'none';
     errorMsgElement.innerHTML = "Please wait..."
     examdetails['endTime'] = date.format(new Date(), 'DD MMM YYYY HH-mm-ss');
 
@@ -168,6 +185,8 @@ function startRecording() {
     console.log('MediaRecorder started', mediaRecorder);
     mediaRecorder.pause();
     downloadButton.disabled = false;
+    muteButton.disabled = false;
+    unmuteButton.disabled = false;
 }
 
 function stopRecording() {
@@ -239,3 +258,29 @@ if (typeof(Storage) !== "undefined" && localStorage.theme) {
     var Theme = localStorage.getItem('theme');
     document.documentElement.setAttribute('data-theme', Theme);
 }
+
+
+
+/********************** mute/ unmute ************************/
+
+muteButton.addEventListener('click', () => {
+    participantinfo = api.getParticipantsInfo();
+    participantinfo.forEach(function(participant, index, arr) {
+        var Pid = participant.participantId;
+        var Pname = participant.displayName;
+        if (!(Pname.includes("invigilator"))) {
+            api.executeCommand('setParticipantVolume', Pid, 0);
+            console.log(Pname)
+        } else {
+            api.pinParticipant(Pid);
+        }
+    })
+})
+
+unmuteButton.addEventListener('click', () => {
+    participantinfo = api.getParticipantsInfo();
+    participantinfo.forEach(function(participant, index, arr) {
+        api.executeCommand('setParticipantVolume', participant.participantId, 1);
+
+    })
+})

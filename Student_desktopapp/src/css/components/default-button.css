@@ -44,6 +44,10 @@
     background-color: rgb(228, 18, 18);
 }
 
+.btn-orange {
+    background-color: orangered;
+}
+
 .btn-green {
     background-color: rgb(40, 192, 73);
 }
