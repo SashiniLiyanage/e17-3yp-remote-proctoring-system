@@ -22,9 +22,11 @@ app.disableHardwareAcceleration();
 
 // Create browser window
 function createWindow() {
-    // const { width, height } = screen.getPrimaryDisplay().workAreaSize
+    const { width, height } = screen.getPrimaryDisplay().workAreaSize
     const mainWindow = new BrowserWindow({   
         // minimizable: false,
+        width:width,
+        height: height,
         maximizable: false,
         resizable: false,
         movable: false,
@@ -78,8 +80,6 @@ function createWindow() {
 
     // no default menu
     mainWindow.setMenu(null);
-    mainWindow.maximize();
-
     // load main page
     mainWindow.loadFile('src/loginpage.html');
     // Open the DevTools.
@@ -115,7 +115,6 @@ function createWindow() {
 
     // upload videos to google drive
     ipc.on("googleDriveUpload", async(event, { fileName, drivePath }) => {
-        console.log(fileName, drivePath)
         uploadFile(event, fileName, drivePath.split('/folders/')[1])
     })
 

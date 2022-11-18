@@ -19,14 +19,14 @@
 
 .appName {
     position: absolute;
-    bottom: 40px;
+    top: 40px;
     left: 0;
     z-index: 10;
     font-family: DancingScript;
     text-shadow: 3px 3px rgb(175, 201, 219);
     color: #109696;
     font-weight: bold;
-    font-size: 60px!important;
+    font-size: 80px!important;
 }
 
 #frontimg {
@@ -46,7 +46,7 @@
     width: 200px;
     height: 60px;
     left: 30px;
-    bottom: 10px;
+    top: 120px;
 }
 
 body {
@@ -346,6 +346,10 @@ form i {
 
 .item button {
     margin-left: 15px;
+}
+
+#new-server{
+    max-width: 400px;
 }
 
 #new-server input {
