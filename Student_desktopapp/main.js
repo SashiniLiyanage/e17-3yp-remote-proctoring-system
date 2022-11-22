@@ -24,11 +24,8 @@ app.disableHardwareAcceleration();
 function createWindow() {
     //const { width, height } = screen.getPrimaryDisplay().workAreaSize
     const mainWindow = new BrowserWindow({   
-        // minimizable: false,
         width: 800,
         height: 500,
-        // width:width,
-        // height: height,
         maximizable: false,
         resizable: false,
         movable: false,
