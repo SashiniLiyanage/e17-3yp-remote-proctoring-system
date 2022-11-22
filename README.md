@@ -90,7 +90,7 @@ HTTPS protects the user from so-called “man-in-the-middle” attacks where hac
 
 ---
 
-## Hardware Design
+## HARDWARE DESIGN
 ![prototype2](https://user-images.githubusercontent.com/73728629/203186356-78d25a38-f0af-4689-bab0-e216f5286a71.gif)
 
 The proctoring device in the student's side has 2 main components.
@@ -98,14 +98,14 @@ The proctoring device in the student's side has 2 main components.
 * The raspberry pi 3B+ module with a touch screen,camera,microphone and speaker connected.
 * Uninterruptible Power Supply
 
-### Rasperry pi peripherals
+### ***RASPERRY PI PERIPHERALS***
 ![circuit1_bb](https://user-images.githubusercontent.com/73728629/203187008-217e26fa-14be-4235-9bff-87e17d123834.png)
 
-### Uninterruptible Power Supply
+### ***UNINTERRUPTIBLE POWER SUPPLY***
 ![UPS 2 0_bb](https://user-images.githubusercontent.com/73728629/203187135-e19fe91b-57af-460c-8782-61d0f1fadde2.png)
 
 
-## Prototype
+## PROTOTYPE
 
 ![hardware](https://user-images.githubusercontent.com/73728629/203186218-18b3fc31-6077-492c-a820-fbdc740f9c15.png)
 
