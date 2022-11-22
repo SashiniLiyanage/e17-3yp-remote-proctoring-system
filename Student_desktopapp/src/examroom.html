@@ -27,6 +27,17 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    .side{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width:fit-content;
+        height: fit-content;
+        bottom: 15px;
+        left:0;
+    }
+
     </style>
 </head>
 
@@ -34,12 +45,13 @@
     <button id="recButton" class='notRec'></button>
     <div id="meet"></div>
 
-
-
-    <div class='center'>
+    <div class="side">
         <button id="download" name='download' class='btn btn-red btn-labeled btn-info waves-effect waves-light' disabled><span class="btn-label"><i class="fa fa-sign-out"></i></span> Leave meeting</button>
         <button id="mute" name='mute' class='btn btn-green btn-labeled btn-info waves-effect waves-light'  disabled><span class="btn-label"><i class="fa fa-user-times"></i></span> Noice Cancle</button>
         <button id="unmute" name='unmute' class='btn btn-red btn-labeled btn-info waves-effect waves-light' disabled><span class="btn-label"><i class="fa fa-users"></i></span> Unmute All</button>
+    </div>
+
+    <div class='center'>
         <p id="errorMsg" style='color:white'></p>
     </div>
 

@@ -4,7 +4,6 @@ const ipc = ipcRenderer
 
 
 var api;
-var mute = 0;
 var savedVideo = 'No saved video'
 
 /****************** variables **********************/
@@ -33,7 +32,7 @@ const domain = 'meet.jit.si';
 const options = {
     roomName: roomName,
     width: 800,
-    height: 445,
+    height: 470,
     userInfo: {
         email: userEmail,
         displayName: displayName,

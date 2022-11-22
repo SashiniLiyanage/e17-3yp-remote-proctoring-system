@@ -66,6 +66,13 @@ th {
   margin-left: auto;
   margin-right: auto;
 }
+
+.breadcrumbs{
+  background-color: var(--color-secondary);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/

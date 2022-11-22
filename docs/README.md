@@ -12,9 +12,9 @@ title: Remote Proctoring System
 ---
 
 ## TEAM
--  E/17/058, DEVINDI G.A.I, [e17058@eng.pdn.ac.lk](mailto:name@email.com)
--  E/17/190, LIYANAGE S.N, [e17190@eng.pdn.ac.lk](mailto:name@email.com)
--  E/17/369, WANNIGAMA S.B, [e17369@eng.pdn.ac.lk](mailto:name@email.com)
+-  E/17/058, DEVINDI G.A.I, [e17058@eng.pdn.ac.lk](mailto:e17058@eng.pdn.ac.lk)
+-  E/17/190, LIYANAGE S.N, [e17190@eng.pdn.ac.lk](mailto:e17190@eng.pdn.ac.lk)
+-  E/17/369, WANNIGAMA S.B, [e17369@eng.pdn.ac.lk](mailto:e17369@eng.pdn.ac.lk)
 
 [//]: # (## [Image of the final hardware]) 
 
@@ -68,7 +68,6 @@ https://user-images.githubusercontent.com/73728629/138657261-dceedda0-a32f-422b-
 ## SYSTEM OVERVIEW
 
 ![system](./assets/img/system/oursystem.PNG)
-
 The device on the student's side is capable of capturing the video and audio stream from students continuously even incase of a power failure.
 The proctor will be able to monitor the video and audio streams captured from all the students facing an examination through the browser application in the proctor's side.
 
@@ -90,10 +89,10 @@ HTTPS protects the user from so-called “man-in-the-middle” attacks where hac
 
 ## LINKS
 
-- [Project Repository](https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/e17-3yp-remote-proctoring-system){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/){:target="_blank"}
-- [University of Peradeniya](https://eng.pdn.ac.lk/){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/e17-3yp-remote-proctoring-system)
+- [Project Page](https://cepdnaclk.github.io/e17-3yp-remote-proctoring-system)
+- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
+- [University of Peradeniya](https://eng.pdn.ac.lk/)
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)

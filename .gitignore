@@ -1,5 +1,6 @@
 Student_desktopapp/node_modules
 Student_desktopapp/src/recordedVideo
+Student_desktopapp/out
 Proctor_webapp/node_modules
 server/api/node_modules
 server/api/config.env
