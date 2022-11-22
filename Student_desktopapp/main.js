@@ -10,9 +10,9 @@ const fs = require('fs');
 
 // Google drive api credentials
 const CLIENT_ID = '1030032301297-iu6nhih0fg4p7temv1b653egltob6n6r.apps.googleusercontent.com';
-const CLIENT_SECRET = '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';
+const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04_lG1cBa7r9JCgYIARAAGAQSNwF-L9IrlKOvW20-lbROSdUnHttqQyFObb4N1gU4RHAiM8igUVa09S8fXmkj5DRW73bYPz2bijc';
+const REFRESH_TOKEN = '1//04WAMxAX55QEeCgYIARAAGAQSNwF-L9IrX5bYRCsbqI-UUQFSGwt6qA4zkKZmshqhMHNyzQfpBNJBuYVthA66JR4_59-OZzcXWf4';
 const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 oauth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 const drive = google.drive({ version: 'v3', auth: oauth2Client, });
@@ -22,11 +22,13 @@ app.disableHardwareAcceleration();
 
 // Create browser window
 function createWindow() {
-    const { width, height } = screen.getPrimaryDisplay().workAreaSize
+    //const { width, height } = screen.getPrimaryDisplay().workAreaSize
     const mainWindow = new BrowserWindow({   
         // minimizable: false,
-        width:width,
-        height: height,
+        width: 800,
+        height: 500,
+        // width:width,
+        // height: height,
         maximizable: false,
         resizable: false,
         movable: false,

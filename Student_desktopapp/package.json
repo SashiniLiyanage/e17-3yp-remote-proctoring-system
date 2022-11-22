@@ -13,10 +13,10 @@
   },
   "build": {
     "appId": "Connexa",
-     "win": {
-     "target": "portable",
-     "icon": "build/icon.ico"
-      },
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    },
     "nsis": {
       "oneClick": false,
       "uninstallerIcon": "icon.ico",
